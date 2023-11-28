@@ -83,9 +83,14 @@ def salutacio(opcion: Int):
     if opcion == 1:
         game.show_long_text("De Celsius (ºC) a Fahrenheit (ºF)", DialogLayout.TOP)
         celsius_to_fahrenheit()
+        menu()
     elif opcion == 2:
         game.show_long_text("De Fahrenheit (ºF) a Celsius (ºC)  ", DialogLayout.BOTTOM)
-        fahrenheit_to_celsius()    
+        fahrenheit_to_celsius()   
+        menu() 
+    else: 
+        game.show_long_text("Numero incorrecte", DialogLayout.TOP)
+        menu()
 salutacio(menu())
 
 def celsius_to_fahrenheit():

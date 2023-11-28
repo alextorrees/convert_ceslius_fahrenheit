@@ -84,9 +84,14 @@ function salutacio(opcion: number) {
     if (opcion == 1) {
         game.showLongText("De Celsius (ºC) a Fahrenheit (ºF)", DialogLayout.Top)
         celsius_to_fahrenheit()
+        menu()
     } else if (opcion == 2) {
         game.showLongText("De Fahrenheit (ºF) a Celsius (ºC)  ", DialogLayout.Bottom)
         fahrenheit_to_celsius()
+        menu()
+    } else {
+        game.showLongText("Numero incorrecte", DialogLayout.Top)
+        menu()
     }
     
 }
