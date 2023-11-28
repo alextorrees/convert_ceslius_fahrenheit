@@ -1,5 +1,5 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.46/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.0","target":"arcade","targetVersion":"1.12.46"}
-// total=1462018 new=6.75% cached=87.78% other=5.47%
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.46/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.0.0","target":"arcade","targetVersion":"1.12.46","repo":"alextorrees/convert_ceslius_fahrenheit"}
+// total=1462934 new=6.79% cached=87.74% other=5.47%
 (function (ectx) {
 'use strict';
 const runtime = ectx.runtime;
@@ -493,7 +493,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P20113(s) {
+function _main___P30856(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1042,26 +1042,26 @@ switch (step) {
     s.callLocIdx = 67; s.pc = 41; return s.tmp_0;
   case 41:
     r0 = s.retval;
-    s.tmp_0 = salutacio__P4333_mk(s);
-    s.tmp_1 = menu__P4331_mk(s);
-    s.callLocIdx = 76; s.pc = 43; return s.tmp_1;
+    s.tmp_0 = salutacio__P30714_mk(s);
+    s.tmp_1 = menu__P30691_mk(s);
+    s.callLocIdx = 80; s.pc = 43; return s.tmp_1;
   case 43:
     r0 = s.retval;
     s.tmp_0.arg0 = r0;
-    s.callLocIdx = 77; s.pc = 42; return s.tmp_0;
+    s.callLocIdx = 81; s.pc = 42; return s.tmp_0;
   case 42:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-_main___P20113.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P20113.continuations = [  ]
+_main___P30856.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P30856.continuations = [  ]
 
-function _main___P20113_mk(s) {
+function _main___P30856_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P20113, depth: s.depth + 1,
+        parent: s, fn: _main___P30856, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1601,7 +1601,7 @@ function gameOverConfig_inline__P4916_mk(s) {
 
 
 
-function menu__P4331(s) {
+function menu__P30691(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1611,9 +1611,9 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.opcion_usuario___6968 = undefined;
+    s.opcion_usuario___30699 = undefined;
     s.tmp_0 = scene_setBackgroundImage__P2885_mk(s);
-    r0 = pxsim.image.ofBuffer(_hex6963);
+    r0 = pxsim.image.ofBuffer(_hex30694);
     s.tmp_0.arg0 = r0;
     s.callLocIdx = 68; s.pc = 1; return s.tmp_0;
   case 1:
@@ -1636,23 +1636,23 @@ switch (step) {
     s.callLocIdx = 71; s.pc = 4; return s.tmp_0;
   case 4:
     r0 = s.retval;
-    s.opcion_usuario___6968 = (r0);
-    r0 = s.opcion_usuario___6968;
+    s.opcion_usuario___30699 = (r0);
+    r0 = s.opcion_usuario___30699;
     return leave(s, r0)
   default: oops()
 } } }
-menu__P4331.info = {"start":0,"length":11336,"line":0,"column":0,"endLine":73,"endColumn":1,"fileName":"main.ts","functionName":"menu","argumentNames":[]}
+menu__P30691.info = {"start":0,"length":11336,"line":0,"column":0,"endLine":73,"endColumn":1,"fileName":"main.ts","functionName":"menu","argumentNames":[]}
 
-function menu__P4331_mk(s) {
+function menu__P30691_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: menu__P4331, depth: s.depth + 1,
+        parent: s, fn: menu__P30691, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
-  opcion_usuario___6968: undefined,
+  opcion_usuario___30699: undefined,
 } }
 
-const _hex6963 = pxsim.BufferMethods.createBufferFromHex("87049f00430000008888fffffffffffffffffffffffffffffffffffffffffffffffffffffffffcffff0f00008888ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfffff0f00008888ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfccff0f000088f8ffffffcffffffffffffffffffffffffffffffffffffffffffffffffffffcff0f000088f8f8fffffffcffffffffffffffffffffffffffffffffffffffffffffffcfffff0f00008888ffffffffccffffffffffffffffffffffffffffffffffffffffffffffcfccff0f000088c8f8ffffffffffffffffffffcfffffffffffffcffffffffffffffffffcfffcff0f0000c8bffcffffffffffffffccfcfccfcfffffffffffcfcfffffffffffffffffffffff0f0000c8bcfffffffffffffffffccfffcfffffcffffffffffffffffffcffffffffffffff0f0000ccbcfbfffffffffcfffffcffffcfffffcfffffffffffffffffffffffffffffffcf0f0000ccb8fffffffffffffffffcffffffffffcffffffffffcffffffffffffffffffffff0f0000cff8fcfffffffffffffffcffccfcffffcffffffffffcffffffffffffffffffffff0f000088ffffffffffcccffffffcfffffcffffcffffffffffffffffffffffcffffcfcfff0f00008ccffffffffffffcfffffcffffffffffcfffffffcfffffffffcfcffffffffffcfc0f00008ccffffffffffffffffffcffffffffffffffffcfccccfffffffffffccfffffffff0f000088fffffffffffffffffffcffffffffffffffffffffffffffffcfccfffffffffcff0f00008ffcfcffffffcfcbfffffcfffffffffffffffffffffffffffffcfffffffffffccf0f0000cfccfbffffcfcfccfffffcffffffffffffffffffcbfffffffffcffffffffffffff0f0000cfccfcffffcfffcffffffcfffffffffffcfffffffbffffffffffffffffffffffff0f0000cccccfffffcffffffcfffcffffffcffcfcfffffffbffffffffffffffffffffffff0f0000fcfffcffffffffffffffffffffffccfcffffffcfffffffffffffffffffffffffff0f0000fccffcffffffffffffffffffffffffffccffffbbffffffffffffffffffffffffbf0f0000ffccfcffffffffffffffffffffffffffccfbffcffffffffffffffffffffffffbbb0f0000bffffffffffffffffcffffffffffffffccffffffffffffffffffffffffffffffbf0f0000ffcfffffffccffcffbffffffffffffffcfffffffffffffffffcfccfcffffffffff0f0000fffcfcffffccffcfffffffffffffffffcfffffffffffffffffcfffffffffffccfc0f0000ffffcbffffcfffffffffffffffffffffcfffffffffffffffffffffffffffffcccc0f0000fcffffffffffffffffffffffcfffffffcfffffffffffffffffffffffffffffffff0f0000fcbfffffffffffcfffffccccffccfcffbffffffffffffffffffffcffffffffffff0f0000ffcfffffffffcfbcfcffffffccffffffffffcffffffffffffffffcffffffffbfff0f0000ffffffffffffcfbcfbffffffffffffffffffcfccfffffffffffffffffffffffffc0f0000ffbfffffffffffcffcffffffffffffffffffffffffffffffffcfffffffffffcfcf0f0000cfcffcffffffffcfffffffffffffffffffffffffffffffffffcfcfffffffffbffc0f0000cfcffcfffffffffcfffffffffffffffffffffffffffffffffffffffffffffffffc0f0000cffcfffffffffffffffffffffffffffffffffffcffffffffffffffffffffffbffb0f0000ffbcfbffffffffcffffffffffffffffffffffffffffffffffffbffffffffffbcfb0f0000fccfffcffffffffffffffffffffffffffffffffffffffffffffbffffffffffffff0f0000ffbfffcffcfffffffffffffffffcccffffffffffcffffffffffbffffffffffcffc0f0000ffffffcfffffffffffffffffffcfcfffffffbfccfbffffffffffffffffffffbffc0f0000ffffffcfffffcfcfffcfffffffffffffffffffffffffffffbbfffffffffffffffc0f0000cfffbccfffffcbcfffffffffffffffffffffcffcffffffffffffffffffffffffff0f0000ffffffccffbfffcfffffffffffffffffffffffffffffffffffffffffffffffffff0f0000ffffcfffffffcfcfffffffffffffffffffffffffffffffffffffffffffffffdcff0f0000fffffbffffcfbbffffcffcffffffffffffffcccffffffffffffffffffffffffffc0f0000ffcffbffffffbfffffcffffffffffcfffffffffcffffffffffffffffffffffbffc0f0000ffcfffffcfffcfffffffffffffffcffcffffffffffffffffffffffffffffffffcc0f0000ffffffffccfcffffffffffffbcfcffffffffffffffffffffffffffffffffffffff0f0000ffbffbfffffffffffffffffffcffffffffffffcfffffffffffffffffffffffbffc0f0000fffcffffcfcffffffffffffffccffbffffffffcffffffffffffcfffffffffffcff0f0000cfcfffffffcffcfffffffffffccfcfffffffcfcfffffffffffffffffffffffffff0f0000fffffcffffcffcfffffffffffbffffffffffffcfffffffffcfcbbcffffffffffff0f0000ffffccfffffffcfffffffffffbbcbffcffcfccbcccccffffffffffffffffffffff0f0000fffffffffffffffffffffffffcfffffcffffcfccffffffffffcffcffffffffffff0f0000ffcffffffffffffffffffffffcffffffffffccccffffffffffffffffffffffffff0f0000fccffffffffffffffffffffffccfffffffffcfccffffffffccccfbffffffffffff0f0000fcbffcffffffccfffffcfcfffccfffffffcfffcffffffffffffffffffffffffcff0f0000ffcffcfcffbffffcfffcfcfffcffffffffcffccffffffffffffcffffffffffffff0f0000ffcffcfcffcfcffcffffffffffffffffffcffcccffffffffcffcffffffffffffff0f0000fcccccffffcfccfffffffffffffcfcffffffccccfffffffffffcffffffffffbfff0f0000fcffffffffcffcffffffffffffccfcfffffffccffffffffffffffffffffffffbff0f0000cccbffffffcfccffffffffffffffffffffffcfcfffffffffccfcffffffffffcffb0f0000ccccffffffcfccffffffffffffbcccfbffffcfcfffffffffffffffffffffffffff0f0000ccccffffffcffffcffffffffffffffffffffffcfffffffffffffffffffffffcffb0f0000ccccfcfffffffffffffcfcffffffffffffffffcfffffffffccfcffffffffffcfff0f0000ccccfcfffffffcfcfffffcffffffffffffffffcffcfffffffffbffffffffffcfff0f0000ccccfcfffffffffcffffffffffffffffffffffcfcfffffffffffffffffffffffff0f0000ccccfcffcffffffcfffffcffffffffffffffcfcffffcfffffcffffffffffffffff0f0000fbffccffcfffcffcfffffcffffffffffffffcfcffffcffffcffcffffffffffccff0f0000fccbbffcfffffffcfffffffffffcffffffffcfcfffffffffcffbffffffffffcfff0f0000fcffccfbfffffffffffffffffffcfcffffffcfcffcffffffcffbffffffffffbbff0f0000fcfccfffcffffcfcfffcfcffffffcfffffffffcfccfcffffffffffffffffcfcbff0f0000ccffffbffcfffffffffcfcffffccffffffffffcffffcffffffffffffffffffccff0f0000ccbcffffcffcffffffccfcffffffffffffffcfcfccffffffbcfcffffffffffffff0f0000fffbffcccffcffffffffffffffffcffcffffffcfccffffffccffffffffffffbbff0f0000cfccccccffffffffffffffffffffffffffffffcffffffffffcfbffffffffffccff0f0000ccccccccffffffffffffffffffffffffffffffcffffffffccffffffffffffffbff0f0000cccccfccccccffffffffcfffffcffcffffffffcffffffffcffffffffffffbfccff0f0000ccfffcccccccffffffffcfffffcffcffffffffffffffffffffffffffffffffffff0f0000ccffffccfcfcffffffffcffffffffcffffffffffffffcffcffffffffffffffffff0f0000fcffffccfcffffffffffcffffffffffffffffffffffffffcffffffffffffffffff0f0000cfffffccffffffffffffcfffffffffffffffffffffffbffbbfffffffffffffffff0f0000fcffcccffcffffffffffcfffffcffffffffffffffffffffffcfcffffffffffffff0c0000fffccccffffffffffcffcfffffffcfffffffbfbbfffffffffcfcffffffccffffff0f0000cfbccbfcffcffcffcfffcfffffbbfcfffffffffbfffffffffcffffffcfffcfffff0f0000cffcccfcffffcfffffffcfffffcfffffffffbbfcffffffffffffffffffffffcffc0f0000ffccccfcfffffffcffffcfffffcffcffffffffffffffffffffffffffffffffffcc0f0000cfbcccfffffffffffcffcfffffffffffffffcfffffffffffffffffffffffffffff0c0000cfbcccffffffffcfcfffcfffffffffffffffffffffffffffffffffffcfffffffff0f0000ffbcccfcfcffffffffcfccffffcffffffffffffffffffffffffffffffffcffffff0f0000ffccccccccccccccccccbcffffcffcfffffffcfcffffffffffffffffffcffcffff0f0000ccbcccffffffffffffcfcfffffcffcffffccfffcccffffffffffffffffcffcffff0f0000ccbccbffffccfffcfffccfffffccffffffbffcfcfcfcffffccfcffffffffffcccc0c0000ccbccccffcccffffcfffcfffffccfcfffffffffcfffffffffcfffffffffcffffff0f0000cfccfccfffcffccffcffcfffffcffffffffffffcffffffffcfffffffffffffffff0f0000ffccfffffffffccfffffcffffffffffffffffffcffffffffffffffffcfffcfcccf0f0000bcccfffffffffffcffffcfffffffffffffffffffffffffffbfffffffffffbfcfcc0f0000bccccbfcffffcfffcffccfffffffffffffffffffffffffffbffcffffffffcfccff0f0000cccbccfcffcffcfffcffcfffffffffffffffffffffffffffcfffffffffffcfcfff0f0000ccbbccfcffffffffcfcccfffffffffffffffffffffffffffcffcffffffffffffff0f0000cfcbbcffffffffffffffcfffffffffffffffcfffffffffffffffffffffffffffff0f0000cfccccffffffffffffffcfffffffffffffffccccffffffffcfffffffffffffffff0f0000ccbccfffffffffffffffcfffffffffffffffffffffffffffffffffffffffffffff0f0000ccccfcffffffffffffffcfffffffffffffffffccffffffffffffffffffffffffff0f0000bcfffcffffffffffffffcfffcfccfcffffffcffbffffffffffffffffffffffffff0f0000ccccccffffffffffffffffffcfffffffffffcffcffffffffffffffffffffffffff0f0000ccffcfffffffffffffffffffffffffffffffcffcffffffffffffffffffffffccfc0f0000bccbccfcccfcffffffffffffffffffffffffffffffffffffcfffffffffffbfffff0f0000ccfcccfcccfcffffffffffffffccffffffffbcffffffffcfcfcfffffffffcffffc0f0000ccffcfcccfffccfcffffffffffffffffffcfcffcffffffcccfccffffffffffffff0f0000ccffcfccffffcccffcffffffffffffffffffbbffffffffcccfffffffffffffffff0f0000fcffffccffffffcffcffffcffccfffffffffffffffffffffcffffffffffffffffb0f0000fccfffffffffcfcbfcffffcfcbffffffffffffffffffffffcffffffffffffffffc0f0000ccfcfffffffffffcfffffffffbffffffffffcffcffffffffffffffffffffffffff0f0000ccbcfcffffffffffbffffffffcffbffcffffcffcffffffffffffffffffffffffff0f0000cccfffccffffcffcbbfcfffffffffcffffffffffffffffffffffffffffffffcfff0f0000bbccfcccfcffccffffffffffffffccffffffffffffffffffffffffffffffffbfff0f0000ffccfcccfcbffbcfccfcfffffcfcfffffffffffcfffffffffffffffffffffffffb0f0000ccbfccccffffccbfffffffbffcfcfffffffffffcbbffffffffffffffffffffffff0f0000ccbcccccfcffcbccfffffffffcfcffffffccfbfcfccfffffffffffffffffffffff0f0000cffcccfcfffffffffffffffffffcfffffffffcfcfccfffffffffffffcfcbffcfff0f0000ffcccbffffffffffffffffffffffffffcfbcfffcccfcffffffffffffffffffbfff0f0000ffcfcbfffffffffffffffffffffffffffffffffccbfffffffffffffffffbffbfcf0f0000ffbfbbfcffffffffffffffffffffffffffcbfffcffffffffffffffffffcbfbbfff0f0000ffffccfffffffffffffffffffffffffffffffffcffffffffffffffffffffcfcfff0f0000cfcfccfffffffffffffffffffffffffffffffffcffffffcccfffffffffcccbcfcb0f0000ccbcccffffffffffffffffffffffffffffffffffffffcfffcfcfbfffffffffcfff0f0000ffcfcffffffffffffffcffffffffffffffffffffffffffbccfffffffffffffffff0f0000fcfffffcfffffffffffcffffffffffffffffffffffffffffcfffffffffffffffff0f0000ffffffcffffffffffffcfffffffffffffffffffcffffffffffffffffffffffffff0f0000ffffffcffcffffffcfffffffcfffffffffffccfcffffffffffffffffffffffffff0f0000ffffccccfcfffffffffcfffffcfbffffffcfffffffffffffcfffffffffffffffff0f0000ffbfbcccfcfffffffcffffffffffffffffffcfccffffffffffffffffffffffffff0f0000ffffbccffcfffffcfcffffffcfffffffffffffffffffffffffffffffffffffffff0f0000ffffcffffcffcfccfffcffffcffcffffffcffcfcffffffffccffffffffffcfccff0f0000ffffffffccffcfccfffcfffffffcffffffffffffffffffcfcffffffffffffcccfc0f0000fffffffffcffcffcffffcfffffffffffffffffffffffffcfffffffffffcffbffff0f0000bcfcfffcffffccfcfffcffffcffcffffffffffffffffffcfffffffffffffcffcff0f0000fffcffffffffccfcfffcffffcffffffffffffcfffffffffffcffffffffffffffff0f0000ffcffffffffcfcfffffffffffffffffffffffffffffffffffcffffffffffffffff0f0000fffbfffcffffccfffffcffffcffcffffffffffffffffffffcfffffffffffffbcff0f0000ffcfffccffcffffffffcffffcffcffffffffcfcfffffffcffcffffffffffffbcff0f0000ffcfffcffffffcfffffcfffffcfbffffffcffccfffffffcfccffffffffffffffff0f0000fcffffffffffffffffffffffffffffffffffcccfffffffffffffffffffffffffff0f0000fffffffffccfffffffffffffffffffffffffffccffffffcffcffffffffffcfbbff0f0000ffffffffcfcfffffffffffffffffffffffffffffffffffffffffffffffffcfcfff0f0000ffffffffffcfccccccfcfcffffffffffffffccffffffffbfffffffffffffffffff0f0000fffffffffffcffffffcfffffffffffffffffcfffffffffbcfffffffffffffffbff0f0000ffffffffffcfccccccfcffffffffffffffffcfffffffffffffffffffffffccfcff0f0000fffffffffffffffcfffffffffffffffffffffcfcffffffffffffffffffffffffff0f0000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcff0f0000fffffffffffffffffffffffffffffffffffcfcffffffffffffffffffffffffbfff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcbff0f0000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0f0000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffccfff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffccff0f0000")
+const _hex30694 = pxsim.BufferMethods.createBufferFromHex("87049f00430000008888fffffffffffffffffffffffffffffffffffffffffffffffffffffffffcffff0f00008888ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfffff0f00008888ffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfccff0f000088f8ffffffcffffffffffffffffffffffffffffffffffffffffffffffffffffcff0f000088f8f8fffffffcffffffffffffffffffffffffffffffffffffffffffffffcfffff0f00008888ffffffffccffffffffffffffffffffffffffffffffffffffffffffffcfccff0f000088c8f8ffffffffffffffffffffcfffffffffffffcffffffffffffffffffcfffcff0f0000c8bffcffffffffffffffccfcfccfcfffffffffffcfcfffffffffffffffffffffff0f0000c8bcfffffffffffffffffccfffcfffffcffffffffffffffffffcffffffffffffff0f0000ccbcfbfffffffffcfffffcffffcfffffcfffffffffffffffffffffffffffffffcf0f0000ccb8fffffffffffffffffcffffffffffcffffffffffcffffffffffffffffffffff0f0000cff8fcfffffffffffffffcffccfcffffcffffffffffcffffffffffffffffffffff0f000088ffffffffffcccffffffcfffffcffffcffffffffffffffffffffffcffffcfcfff0f00008ccffffffffffffcfffffcffffffffffcfffffffcfffffffffcfcffffffffffcfc0f00008ccffffffffffffffffffcffffffffffffffffcfccccfffffffffffccfffffffff0f000088fffffffffffffffffffcffffffffffffffffffffffffffffcfccfffffffffcff0f00008ffcfcffffffcfcbfffffcfffffffffffffffffffffffffffffcfffffffffffccf0f0000cfccfbffffcfcfccfffffcffffffffffffffffffcbfffffffffcffffffffffffff0f0000cfccfcffffcfffcffffffcfffffffffffcfffffffbffffffffffffffffffffffff0f0000cccccfffffcffffffcfffcffffffcffcfcfffffffbffffffffffffffffffffffff0f0000fcfffcffffffffffffffffffffffccfcffffffcfffffffffffffffffffffffffff0f0000fccffcffffffffffffffffffffffffffccffffbbffffffffffffffffffffffffbf0f0000ffccfcffffffffffffffffffffffffffccfbffcffffffffffffffffffffffffbbb0f0000bffffffffffffffffcffffffffffffffccffffffffffffffffffffffffffffffbf0f0000ffcfffffffccffcffbffffffffffffffcfffffffffffffffffcfccfcffffffffff0f0000fffcfcffffccffcfffffffffffffffffcfffffffffffffffffcfffffffffffccfc0f0000ffffcbffffcfffffffffffffffffffffcfffffffffffffffffffffffffffffcccc0f0000fcffffffffffffffffffffffcfffffffcfffffffffffffffffffffffffffffffff0f0000fcbfffffffffffcfffffccccffccfcffbffffffffffffffffffffcffffffffffff0f0000ffcfffffffffcfbcfcffffffccffffffffffcffffffffffffffffcffffffffbfff0f0000ffffffffffffcfbcfbffffffffffffffffffcfccfffffffffffffffffffffffffc0f0000ffbfffffffffffcffcffffffffffffffffffffffffffffffffcfffffffffffcfcf0f0000cfcffcffffffffcfffffffffffffffffffffffffffffffffffcfcfffffffffbffc0f0000cfcffcfffffffffcfffffffffffffffffffffffffffffffffffffffffffffffffc0f0000cffcfffffffffffffffffffffffffffffffffffcffffffffffffffffffffffbffb0f0000ffbcfbffffffffcffffffffffffffffffffffffffffffffffffbffffffffffbcfb0f0000fccfffcffffffffffffffffffffffffffffffffffffffffffffbffffffffffffff0f0000ffbfffcffcfffffffffffffffffcccffffffffffcffffffffffbffffffffffcffc0f0000ffffffcfffffffffffffffffffcfcfffffffbfccfbffffffffffffffffffffbffc0f0000ffffffcfffffcfcfffcfffffffffffffffffffffffffffffbbfffffffffffffffc0f0000cfffbccfffffcbcfffffffffffffffffffffcffcffffffffffffffffffffffffff0f0000ffffffccffbfffcfffffffffffffffffffffffffffffffffffffffffffffffffff0f0000ffffcfffffffcfcfffffffffffffffffffffffffffffffffffffffffffffffdcff0f0000fffffbffffcfbbffffcffcffffffffffffffcccffffffffffffffffffffffffffc0f0000ffcffbffffffbfffffcffffffffffcfffffffffcffffffffffffffffffffffbffc0f0000ffcfffffcfffcfffffffffffffffcffcffffffffffffffffffffffffffffffffcc0f0000ffffffffccfcffffffffffffbcfcffffffffffffffffffffffffffffffffffffff0f0000ffbffbfffffffffffffffffffcffffffffffffcfffffffffffffffffffffffbffc0f0000fffcffffcfcffffffffffffffccffbffffffffcffffffffffffcfffffffffffcff0f0000cfcfffffffcffcfffffffffffccfcfffffffcfcfffffffffffffffffffffffffff0f0000fffffcffffcffcfffffffffffbffffffffffffcfffffffffcfcbbcffffffffffff0f0000ffffccfffffffcfffffffffffbbcbffcffcfccbcccccffffffffffffffffffffff0f0000fffffffffffffffffffffffffcfffffcffffcfccffffffffffcffcffffffffffff0f0000ffcffffffffffffffffffffffcffffffffffccccffffffffffffffffffffffffff0f0000fccffffffffffffffffffffffccfffffffffcfccffffffffccccfbffffffffffff0f0000fcbffcffffffccfffffcfcfffccfffffffcfffcffffffffffffffffffffffffcff0f0000ffcffcfcffbffffcfffcfcfffcffffffffcffccffffffffffffcffffffffffffff0f0000ffcffcfcffcfcffcffffffffffffffffffcffcccffffffffcffcffffffffffffff0f0000fcccccffffcfccfffffffffffffcfcffffffccccfffffffffffcffffffffffbfff0f0000fcffffffffcffcffffffffffffccfcfffffffccffffffffffffffffffffffffbff0f0000cccbffffffcfccffffffffffffffffffffffcfcfffffffffccfcffffffffffcffb0f0000ccccffffffcfccffffffffffffbcccfbffffcfcfffffffffffffffffffffffffff0f0000ccccffffffcffffcffffffffffffffffffffffcfffffffffffffffffffffffcffb0f0000ccccfcfffffffffffffcfcffffffffffffffffcfffffffffccfcffffffffffcfff0f0000ccccfcfffffffcfcfffffcffffffffffffffffcffcfffffffffbffffffffffcfff0f0000ccccfcfffffffffcffffffffffffffffffffffcfcfffffffffffffffffffffffff0f0000ccccfcffcffffffcfffffcffffffffffffffcfcffffcfffffcffffffffffffffff0f0000fbffccffcfffcffcfffffcffffffffffffffcfcffffcffffcffcffffffffffccff0f0000fccbbffcfffffffcfffffffffffcffffffffcfcfffffffffcffbffffffffffcfff0f0000fcffccfbfffffffffffffffffffcfcffffffcfcffcffffffcffbffffffffffbbff0f0000fcfccfffcffffcfcfffcfcffffffcfffffffffcfccfcffffffffffffffffcfcbff0f0000ccffffbffcfffffffffcfcffffccffffffffffcffffcffffffffffffffffffccff0f0000ccbcffffcffcffffffccfcffffffffffffffcfcfccffffffbcfcffffffffffffff0f0000fffbffcccffcffffffffffffffffcffcffffffcfccffffffccffffffffffffbbff0f0000cfccccccffffffffffffffffffffffffffffffcffffffffffcfbffffffffffccff0f0000ccccccccffffffffffffffffffffffffffffffcffffffffccffffffffffffffbff0f0000cccccfccccccffffffffcfffffcffcffffffffcffffffffcffffffffffffbfccff0f0000ccfffcccccccffffffffcfffffcffcffffffffffffffffffffffffffffffffffff0f0000ccffffccfcfcffffffffcffffffffcffffffffffffffcffcffffffffffffffffff0f0000fcffffccfcffffffffffcffffffffffffffffffffffffffcffffffffffffffffff0f0000cfffffccffffffffffffcfffffffffffffffffffffffbffbbfffffffffffffffff0f0000fcffcccffcffffffffffcfffffcffffffffffffffffffffffcfcffffffffffffff0c0000fffccccffffffffffcffcfffffffcfffffffbfbbfffffffffcfcffffffccffffff0f0000cfbccbfcffcffcffcfffcfffffbbfcfffffffffbfffffffffcffffffcfffcfffff0f0000cffcccfcffffcfffffffcfffffcfffffffffbbfcffffffffffffffffffffffcffc0f0000ffccccfcfffffffcffffcfffffcffcffffffffffffffffffffffffffffffffffcc0f0000cfbcccfffffffffffcffcfffffffffffffffcfffffffffffffffffffffffffffff0c0000cfbcccffffffffcfcfffcfffffffffffffffffffffffffffffffffffcfffffffff0f0000ffbcccfcfcffffffffcfccffffcffffffffffffffffffffffffffffffffcffffff0f0000ffccccccccccccccccccbcffffcffcfffffffcfcffffffffffffffffffcffcffff0f0000ccbcccffffffffffffcfcfffffcffcffffccfffcccffffffffffffffffcffcffff0f0000ccbccbffffccfffcfffccfffffccffffffbffcfcfcfcffffccfcffffffffffcccc0c0000ccbccccffcccffffcfffcfffffccfcfffffffffcfffffffffcfffffffffcffffff0f0000cfccfccfffcffccffcffcfffffcffffffffffffcffffffffcfffffffffffffffff0f0000ffccfffffffffccfffffcffffffffffffffffffcffffffffffffffffcfffcfcccf0f0000bcccfffffffffffcffffcfffffffffffffffffffffffffffbfffffffffffbfcfcc0f0000bccccbfcffffcfffcffccfffffffffffffffffffffffffffbffcffffffffcfccff0f0000cccbccfcffcffcfffcffcfffffffffffffffffffffffffffcfffffffffffcfcfff0f0000ccbbccfcffffffffcfcccfffffffffffffffffffffffffffcffcffffffffffffff0f0000cfcbbcffffffffffffffcfffffffffffffffcfffffffffffffffffffffffffffff0f0000cfccccffffffffffffffcfffffffffffffffccccffffffffcfffffffffffffffff0f0000ccbccfffffffffffffffcfffffffffffffffffffffffffffffffffffffffffffff0f0000ccccfcffffffffffffffcfffffffffffffffffccffffffffffffffffffffffffff0f0000bcfffcffffffffffffffcfffcfccfcffffffcffbffffffffffffffffffffffffff0f0000ccccccffffffffffffffffffcfffffffffffcffcffffffffffffffffffffffffff0f0000ccffcfffffffffffffffffffffffffffffffcffcffffffffffffffffffffffccfc0f0000bccbccfcccfcffffffffffffffffffffffffffffffffffffcfffffffffffbfffff0f0000ccfcccfcccfcffffffffffffffccffffffffbcffffffffcfcfcfffffffffcffffc0f0000ccffcfcccfffccfcffffffffffffffffffcfcffcffffffcccfccffffffffffffff0f0000ccffcfccffffcccffcffffffffffffffffffbbffffffffcccfffffffffffffffff0f0000fcffffccffffffcffcffffcffccfffffffffffffffffffffcffffffffffffffffb0f0000fccfffffffffcfcbfcffffcfcbffffffffffffffffffffffcffffffffffffffffc0f0000ccfcfffffffffffcfffffffffbffffffffffcffcffffffffffffffffffffffffff0f0000ccbcfcffffffffffbffffffffcffbffcffffcffcffffffffffffffffffffffffff0f0000cccfffccffffcffcbbfcfffffffffcffffffffffffffffffffffffffffffffcfff0f0000bbccfcccfcffccffffffffffffffccffffffffffffffffffffffffffffffffbfff0f0000ffccfcccfcbffbcfccfcfffffcfcfffffffffffcfffffffffffffffffffffffffb0f0000ccbfccccffffccbfffffffbffcfcfffffffffffcbbffffffffffffffffffffffff0f0000ccbcccccfcffcbccfffffffffcfcffffffccfbfcfccfffffffffffffffffffffff0f0000cffcccfcfffffffffffffffffffcfffffffffcfcfccfffffffffffffcfcbffcfff0f0000ffcccbffffffffffffffffffffffffffcfbcfffcccfcffffffffffffffffffbfff0f0000ffcfcbfffffffffffffffffffffffffffffffffccbfffffffffffffffffbffbfcf0f0000ffbfbbfcffffffffffffffffffffffffffcbfffcffffffffffffffffffcbfbbfff0f0000ffffccfffffffffffffffffffffffffffffffffcffffffffffffffffffffcfcfff0f0000cfcfccfffffffffffffffffffffffffffffffffcffffffcccfffffffffcccbcfcb0f0000ccbcccffffffffffffffffffffffffffffffffffffffcfffcfcfbfffffffffcfff0f0000ffcfcffffffffffffffcffffffffffffffffffffffffffbccfffffffffffffffff0f0000fcfffffcfffffffffffcffffffffffffffffffffffffffffcfffffffffffffffff0f0000ffffffcffffffffffffcfffffffffffffffffffcffffffffffffffffffffffffff0f0000ffffffcffcffffffcfffffffcfffffffffffccfcffffffffffffffffffffffffff0f0000ffffccccfcfffffffffcfffffcfbffffffcfffffffffffffcfffffffffffffffff0f0000ffbfbcccfcfffffffcffffffffffffffffffcfccffffffffffffffffffffffffff0f0000ffffbccffcfffffcfcffffffcfffffffffffffffffffffffffffffffffffffffff0f0000ffffcffffcffcfccfffcffffcffcffffffcffcfcffffffffccffffffffffcfccff0f0000ffffffffccffcfccfffcfffffffcffffffffffffffffffcfcffffffffffffcccfc0f0000fffffffffcffcffcffffcfffffffffffffffffffffffffcfffffffffffcffbffff0f0000bcfcfffcffffccfcfffcffffcffcffffffffffffffffffcfffffffffffffcffcff0f0000fffcffffffffccfcfffcffffcffffffffffffcfffffffffffcffffffffffffffff0f0000ffcffffffffcfcfffffffffffffffffffffffffffffffffffcffffffffffffffff0f0000fffbfffcffffccfffffcffffcffcffffffffffffffffffffcfffffffffffffbcff0f0000ffcfffccffcffffffffcffffcffcffffffffcfcfffffffcffcffffffffffffbcff0f0000ffcfffcffffffcfffffcfffffcfbffffffcffccfffffffcfccffffffffffffffff0f0000fcffffffffffffffffffffffffffffffffffcccfffffffffffffffffffffffffff0f0000fffffffffccfffffffffffffffffffffffffffccffffffcffcffffffffffcfbbff0f0000ffffffffcfcfffffffffffffffffffffffffffffffffffffffffffffffffcfcfff0f0000ffffffffffcfccccccfcfcffffffffffffffccffffffffbfffffffffffffffffff0f0000fffffffffffcffffffcfffffffffffffffffcfffffffffbcfffffffffffffffbff0f0000ffffffffffcfccccccfcffffffffffffffffcfffffffffffffffffffffffccfcff0f0000fffffffffffffffcfffffffffffffffffffffcfcffffffffffffffffffffffffff0f0000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcff0f0000fffffffffffffffffffffffffffffffffffcfcffffffffffffffffffffffffbfff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcbff0f0000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0f0000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffccfff0f0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffccff0f0000")
 
 
 
@@ -5174,8 +5174,8 @@ switch (step) {
 
     s.loopStart___7543 = undefined;
     s.f___7556 = undefined;
-    s.unnamed54___U2 = undefined;
-    s.unnamed55___U3 = undefined;
+    s.unnamed698___U2 = undefined;
+    s.unnamed699___U3 = undefined;
     s.now___7561 = undefined;
     s.runtime___7564 = undefined;
     s.realTimeInSample___7583 = undefined;
@@ -5198,15 +5198,15 @@ switch (step) {
     r0 = (s.arg0).fields["prevTimeMillis"] = (s.loopStart___7543);
     s.f___7556 = (undefined);
     r0 = s.arg0.fields["frameCallbacks"];
-    s.unnamed54___U2 = (r0);
-    s.unnamed55___U3 = (0);
+    s.unnamed698___U2 = (r0);
+    s.unnamed699___U3 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed55___U3;
-    r0 = pxsim_Array__length(s.unnamed54___U2);
+    s.tmp_0 = r0 = s.unnamed699___U3;
+    r0 = pxsim_Array__length(s.unnamed698___U2);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed54___U2, s.unnamed55___U3);
+    r0 = pxsim_Array__getAt(s.unnamed698___U2, s.unnamed699___U3);
     s.f___7556 = (r0);
     s.tmp_2 = if_handler_1_mk(s);
     s.tmp_2.arg0 = s.f___7556;
@@ -5221,11 +5221,11 @@ switch (step) {
     }
   case 11:
     r0 = s.retval;
-    r0 = (s.unnamed55___U3 + 1);
-    s.unnamed55___U3 = (r0);
+    r0 = (s.unnamed699___U3 + 1);
+    s.unnamed699___U3 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed54___U2 = (undefined);
+    s.unnamed698___U2 = (undefined);
     r0 = pxsim.control.millis();
     s.now___7561 = (r0);
     r0 = (s.now___7561 - s.loopStart___7543);
@@ -5442,8 +5442,8 @@ function control_EventContext_runCallbacks__P4420_mk(s) {
   tmp_17: undefined,
   loopStart___7543: undefined,
   f___7556: undefined,
-  unnamed54___U2: undefined,
-  unnamed55___U3: undefined,
+  unnamed698___U2: undefined,
+  unnamed699___U3: undefined,
   now___7561: undefined,
   runtime___7564: undefined,
   realTimeInSample___7583: undefined,
@@ -5517,8 +5517,8 @@ switch (step) {
 
     s.handlerState___8927 = undefined;
     s.eventHandler___8936 = undefined;
-    s.unnamed68___U2 = undefined;
-    s.unnamed69___U3 = undefined;
+    s.unnamed712___U2 = undefined;
+    s.unnamed713___U3 = undefined;
     s.newHandler___8952 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
@@ -5579,15 +5579,15 @@ switch (step) {
   case 4:
     s.eventHandler___8936 = (undefined);
     r0 = s.handlerState___8927.fields["user"];
-    s.unnamed68___U2 = (r0);
-    s.unnamed69___U3 = (0);
+    s.unnamed712___U2 = (r0);
+    s.unnamed713___U3 = (0);
   case 5:
-    s.tmp_0 = r0 = s.unnamed69___U3;
-    r0 = pxsim_Array__length(s.unnamed68___U2);
+    s.tmp_0 = r0 = s.unnamed713___U3;
+    r0 = pxsim_Array__length(s.unnamed712___U2);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 8; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed68___U2, s.unnamed69___U3);
+    r0 = pxsim_Array__getAt(s.unnamed712___U2, s.unnamed713___U3);
     s.eventHandler___8936 = (r0);
     r0 = s.eventHandler___8936.fields["event"];
     s.tmp_3 = r0;
@@ -5599,11 +5599,11 @@ switch (step) {
     { step = 9; continue; }
   case 6:
   case 7:
-    r0 = (s.unnamed69___U3 + 1);
-    s.unnamed69___U3 = (r0);
+    r0 = (s.unnamed713___U3 + 1);
+    s.unnamed713___U3 = (r0);
     { step = 5; continue; }
   case 8:
-    s.unnamed68___U2 = (undefined);
+    s.unnamed712___U2 = (undefined);
     r0 = pxsim_pxtcore_mkAction(2, controller_Button_getOrCreateHandlerForEvent_inline__P8949);
     s.tmp_4 = r0;
     r0 = pxsim_pxtrt_stclo(s.tmp_4, 0, s.arg0);
@@ -5652,8 +5652,8 @@ function controller_Button_getOrCreateHandlerForEvent__P4712_mk(s) {
   tmp_7: undefined,
   handlerState___8927: undefined,
   eventHandler___8936: undefined,
-  unnamed68___U2: undefined,
-  unnamed69___U3: undefined,
+  unnamed712___U2: undefined,
+  unnamed713___U3: undefined,
   newHandler___8952: undefined,
   arg0: undefined,
   arg1: undefined,
@@ -5710,8 +5710,8 @@ switch (step) {
     s.handlerState___8966 = undefined;
     s.userHandler___8970 = undefined;
     s.eventHandler___8981 = undefined;
-    s.unnamed66___U3 = undefined;
-    s.unnamed67___U4 = undefined;
+    s.unnamed710___U3 = undefined;
+    s.unnamed711___U4 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.arg1 = (s.lambdaArgs[1]);
@@ -5766,15 +5766,15 @@ switch (step) {
     if (!r0) { step = 11; continue; }
     s.eventHandler___8981 = (undefined);
     r0 = s.handlerState___8966.fields["system"];
-    s.unnamed66___U3 = (r0);
-    s.unnamed67___U4 = (0);
+    s.unnamed710___U3 = (r0);
+    s.unnamed711___U4 = (0);
   case 5:
-    s.tmp_0 = r0 = s.unnamed67___U4;
-    r0 = pxsim_Array__length(s.unnamed66___U3);
+    s.tmp_0 = r0 = s.unnamed711___U4;
+    r0 = pxsim_Array__length(s.unnamed710___U3);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 10; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed66___U3, s.unnamed67___U4);
+    r0 = pxsim_Array__getAt(s.unnamed710___U3, s.unnamed711___U4);
     s.eventHandler___8981 = (r0);
     r0 = s.eventHandler___8981.fields["event"];
     s.tmp_3 = r0;
@@ -5806,11 +5806,11 @@ switch (step) {
     r0 = s.retval;
   case 8:
   case 9:
-    r0 = (s.unnamed67___U4 + 1);
-    s.unnamed67___U4 = (r0);
+    r0 = (s.unnamed711___U4 + 1);
+    s.unnamed711___U4 = (r0);
     { step = 5; continue; }
   case 10:
-    s.unnamed66___U3 = (undefined);
+    s.unnamed710___U3 = (undefined);
   case 11:
   case 12:
   case 13:
@@ -5834,8 +5834,8 @@ function controller_Button_runButtonEvents__P4711_mk(s) {
   handlerState___8966: undefined,
   userHandler___8970: undefined,
   eventHandler___8981: undefined,
-  unnamed66___U3: undefined,
-  unnamed67___U4: undefined,
+  unnamed710___U3: undefined,
+  unnamed711___U4: undefined,
   arg0: undefined,
   arg1: undefined,
 } }
@@ -5855,8 +5855,8 @@ switch (step) {
   case 0:
 
     s.state___8997 = undefined;
-    s.unnamed64___U1 = undefined;
-    s.unnamed65___U2 = undefined;
+    s.unnamed708___U1 = undefined;
+    s.unnamed709___U2 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
@@ -5869,15 +5869,15 @@ switch (step) {
   case 6:
     r0 = s.retval;
     r0 = r0.fields["buttonEventHandlers"];
-    s.unnamed64___U1 = (r0);
-    s.unnamed65___U2 = (0);
+    s.unnamed708___U1 = (r0);
+    s.unnamed709___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed65___U2;
-    r0 = pxsim_Array__length(s.unnamed64___U1);
+    s.tmp_0 = r0 = s.unnamed709___U2;
+    r0 = pxsim_Array__length(s.unnamed708___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed64___U1, s.unnamed65___U2);
+    r0 = pxsim_Array__getAt(s.unnamed708___U1, s.unnamed709___U2);
     s.state___8997 = (r0);
     r0 = s.state___8997.fields["id"];
     s.tmp_3 = r0;
@@ -5891,11 +5891,11 @@ switch (step) {
     { step = 5; continue; }
   case 2:
   case 3:
-    r0 = (s.unnamed65___U2 + 1);
-    s.unnamed65___U2 = (r0);
+    r0 = (s.unnamed709___U2 + 1);
+    s.unnamed709___U2 = (r0);
     { step = 1; continue; }
   case 4:
-    s.unnamed64___U1 = (undefined);
+    s.unnamed708___U1 = (undefined);
     r0 = undefined;
   case 5:
     return leaveAccessor(s, r0)
@@ -5915,8 +5915,8 @@ function controller_Button_handlerState__P4707_mk(s) {
   tmp_3: undefined,
   tmp_4: undefined,
   state___8997: undefined,
-  unnamed64___U1: undefined,
-  unnamed65___U2: undefined,
+  unnamed708___U1: undefined,
+  unnamed709___U2: undefined,
   arg0: undefined,
 } }
 
@@ -6123,8 +6123,8 @@ switch (step) {
   case 0:
 
     s.h___7786 = undefined;
-    s.unnamed60___U1 = undefined;
-    s.unnamed61___U2 = undefined;
+    s.unnamed704___U1 = undefined;
+    s.unnamed705___U2 = undefined;
     s.hn___7804 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
@@ -6138,15 +6138,15 @@ switch (step) {
     if (!checkSubtype(r0, control_EventContext__C395_VT)) failedCast(r0);
     s.h___7786 = (undefined);
     r0 = s.arg0.fields["handlers"];
-    s.unnamed60___U1 = (r0);
-    s.unnamed61___U2 = (0);
+    s.unnamed704___U1 = (r0);
+    s.unnamed705___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed61___U2;
-    r0 = pxsim_Array__length(s.unnamed60___U1);
+    s.tmp_0 = r0 = s.unnamed705___U2;
+    r0 = pxsim_Array__length(s.unnamed704___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 6; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed60___U1, s.unnamed61___U2);
+    r0 = pxsim_Array__getAt(s.unnamed704___U1, s.unnamed705___U2);
     s.h___7786 = (r0);
     r0 = s.h___7786.fields["src"];
     s.tmp_3 = r0;
@@ -6170,11 +6170,11 @@ switch (step) {
     { step = 7; continue; }
   case 4:
   case 5:
-    r0 = (s.unnamed61___U2 + 1);
-    s.unnamed61___U2 = (r0);
+    r0 = (s.unnamed705___U2 + 1);
+    s.unnamed705___U2 = (r0);
     { step = 1; continue; }
   case 6:
-    s.unnamed60___U1 = (undefined);
+    s.unnamed704___U1 = (undefined);
     r0 = pxsim_pxtcore_mkClassInstance(control_EventHandler__C4415_VT);
     s.tmp_0 = r0;
     s.tmp_1 = control_EventHandler_constructor__P4418_mk(s);
@@ -6214,8 +6214,8 @@ function control_EventContext_registerHandler__P405_mk(s) {
   tmp_4: undefined,
   tmp_5: undefined,
   h___7786: undefined,
-  unnamed60___U1: undefined,
-  unnamed61___U2: undefined,
+  unnamed704___U1: undefined,
+  unnamed705___U2: undefined,
   hn___7804: undefined,
   arg0: undefined,
   arg1: undefined,
@@ -11136,8 +11136,8 @@ switch (step) {
   case 0:
 
     s.h___7686 = undefined;
-    s.unnamed58___U1 = undefined;
-    s.unnamed59___U2 = undefined;
+    s.unnamed702___U1 = undefined;
+    s.unnamed703___U2 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
@@ -11146,26 +11146,26 @@ switch (step) {
     if (!checkSubtype(r0, control_EventContext__C395_VT)) failedCast(r0);
     s.h___7686 = (undefined);
     r0 = s.arg0.fields["handlers"];
-    s.unnamed58___U1 = (r0);
-    s.unnamed59___U2 = (0);
+    s.unnamed702___U1 = (r0);
+    s.unnamed703___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed59___U2;
-    r0 = pxsim_Array__length(s.unnamed58___U1);
+    s.tmp_0 = r0 = s.unnamed703___U2;
+    r0 = pxsim_Array__length(s.unnamed702___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed58___U1, s.unnamed59___U2);
+    r0 = pxsim_Array__getAt(s.unnamed702___U1, s.unnamed703___U2);
     s.h___7686 = (r0);
     s.tmp_2 = control_EventHandler_unregister__P4417_mk(s);
     s.tmp_2.arg0 = s.h___7686;
     s.callLocIdx = 49; s.pc = 3; return s.tmp_2;
   case 3:
     r0 = s.retval;
-    r0 = (s.unnamed59___U2 + 1);
-    s.unnamed59___U2 = (r0);
+    r0 = (s.unnamed703___U2 + 1);
+    s.unnamed703___U2 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed58___U1 = (undefined);
+    s.unnamed702___U1 = (undefined);
     s.tmp_0 = r0 = s.arg0;
     r0 = s.tmp_0.fields["frameWorker"];
     s.tmp_2 = r0;
@@ -11187,8 +11187,8 @@ function control_EventContext_unregister__P402_mk(s) {
   tmp_1: undefined,
   tmp_2: undefined,
   h___7686: undefined,
-  unnamed58___U1: undefined,
-  unnamed59___U2: undefined,
+  unnamed702___U1: undefined,
+  unnamed703___U2: undefined,
   arg0: undefined,
 } }
 
@@ -11278,8 +11278,8 @@ switch (step) {
   case 0:
 
     s.h___7486 = undefined;
-    s.unnamed56___U1 = undefined;
-    s.unnamed57___U2 = undefined;
+    s.unnamed700___U1 = undefined;
+    s.unnamed701___U2 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
@@ -11288,26 +11288,26 @@ switch (step) {
     if (!checkSubtype(r0, control_EventContext__C395_VT)) failedCast(r0);
     s.h___7486 = (undefined);
     r0 = s.arg0.fields["handlers"];
-    s.unnamed56___U1 = (r0);
-    s.unnamed57___U2 = (0);
+    s.unnamed700___U1 = (r0);
+    s.unnamed701___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed57___U2;
-    r0 = pxsim_Array__length(s.unnamed56___U1);
+    s.tmp_0 = r0 = s.unnamed701___U2;
+    r0 = pxsim_Array__length(s.unnamed700___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed56___U1, s.unnamed57___U2);
+    r0 = pxsim_Array__getAt(s.unnamed700___U1, s.unnamed701___U2);
     s.h___7486 = (r0);
     s.tmp_2 = control_EventHandler_register__P4416_mk(s);
     s.tmp_2.arg0 = s.h___7486;
     s.callLocIdx = 47; s.pc = 3; return s.tmp_2;
   case 3:
     r0 = s.retval;
-    r0 = (s.unnamed57___U2 + 1);
-    s.unnamed57___U2 = (r0);
+    r0 = (s.unnamed701___U2 + 1);
+    s.unnamed701___U2 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed56___U1 = (undefined);
+    s.unnamed700___U1 = (undefined);
     s.tmp_0 = control_EventContext_registerFrameCallbacks__P4421_mk(s);
     s.tmp_0.arg0 = s.arg0;
     s.callLocIdx = 48; s.pc = 4; return s.tmp_0;
@@ -11328,8 +11328,8 @@ function control_EventContext_register__P401_mk(s) {
   tmp_1: undefined,
   tmp_2: undefined,
   h___7486: undefined,
-  unnamed56___U1: undefined,
-  unnamed57___U2: undefined,
+  unnamed700___U1: undefined,
+  unnamed701___U2: undefined,
   arg0: undefined,
 } }
 
@@ -11771,8 +11771,8 @@ switch (step) {
 
     s.dt___10196 = undefined;
     s.s___10204 = undefined;
-    s.unnamed86___U2 = undefined;
-    s.unnamed87___U3 = undefined;
+    s.unnamed730___U2 = undefined;
+    s.unnamed731___U3 = undefined;
     r0 = s.caps[0].fields["eventContext"];
     s.tmp_0 = r0;
     r0 = s.tmp_0.fields["deltaTimeMillis"];
@@ -11787,15 +11787,15 @@ switch (step) {
     r0 = s.retval;
     s.s___10204 = (undefined);
     r0 = s.caps[0].fields["allSprites"];
-    s.unnamed86___U2 = (r0);
-    s.unnamed87___U3 = (0);
+    s.unnamed730___U2 = (r0);
+    s.unnamed731___U3 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed87___U3;
-    r0 = pxsim_Array__length(s.unnamed86___U2);
+    s.tmp_0 = r0 = s.unnamed731___U3;
+    r0 = pxsim_Array__length(s.unnamed730___U2);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed86___U2, s.unnamed87___U3);
+    r0 = pxsim_Array__getAt(s.unnamed730___U2, s.unnamed731___U3);
     s.s___10204 = (r0);
     s.tmp_2 = if___update_3_mk(s);
     s.tmp_2.arg0 = s.s___10204;
@@ -11813,11 +11813,11 @@ switch (step) {
     }
   case 4:
     r0 = s.retval;
-    r0 = (s.unnamed87___U3 + 1);
-    s.unnamed87___U3 = (r0);
+    r0 = (s.unnamed731___U3 + 1);
+    s.unnamed731___U3 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed86___U2 = (undefined);
+    s.unnamed730___U2 = (undefined);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
@@ -11834,8 +11834,8 @@ function scene_Scene_init_inline__P10195_mk(s) {
   tmp_2: undefined,
   dt___10196: undefined,
   s___10204: undefined,
-  unnamed86___U2: undefined,
-  unnamed87___U3: undefined,
+  unnamed730___U2: undefined,
+  unnamed731___U3: undefined,
 } }
 
 
@@ -12680,8 +12680,8 @@ switch (step) {
     s.t___10497 = undefined;
     s.tOff___10504 = undefined;
     s.tab___10506 = undefined;
-    s.unnamed90___U6 = undefined;
-    s.unnamed91___U7 = undefined;
+    s.unnamed734___U6 = undefined;
+    s.unnamed735___U7 = undefined;
     s.padding___10508 = undefined;
     r0 = pxsim_numops_toBoolDecr(globals.consoleStrings___5222);
     s.tmp_1 = r0;
@@ -12761,15 +12761,15 @@ switch (step) {
     s.t___10497 = (r0);
     s.tOff___10504 = (0);
     s.tab___10506 = (undefined);
-    s.unnamed90___U6 = (s.t___10497);
-    s.unnamed91___U7 = (0);
+    s.unnamed734___U6 = (s.t___10497);
+    s.unnamed735___U7 = (0);
   case 8:
-    s.tmp_0 = r0 = s.unnamed91___U7;
-    r0 = pxsim_Array__length(s.unnamed90___U6);
+    s.tmp_0 = r0 = s.unnamed735___U7;
+    r0 = pxsim_Array__length(s.unnamed734___U6);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 9; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed90___U6, s.unnamed91___U7);
+    r0 = pxsim_Array__getAt(s.unnamed734___U6, s.unnamed735___U7);
     s.tab___10506 = (r0);
     s.tmp_2 = r0 = globals.tabSize___5224;
     s.tmp_5 = r0 = s.tOff___10504;
@@ -12820,11 +12820,11 @@ switch (step) {
     s.tmp_1 = r0;
     r0 = (s.tmp_0 + s.tmp_1);
     s.tOff___10504 = (r0);
-    r0 = (s.unnamed91___U7 + 1);
-    s.unnamed91___U7 = (r0);
+    r0 = (s.unnamed735___U7 + 1);
+    s.unnamed735___U7 = (r0);
     { step = 8; continue; }
   case 9:
-    s.unnamed90___U6 = (undefined);
+    s.unnamed734___U6 = (undefined);
     { step = 11; continue; }
   case 10:
     s.tmp_0 = helpers_imagePrint__P1990_mk(s);
@@ -12874,8 +12874,8 @@ function game_consoleOverlay_draw__P3127_mk(s) {
   t___10497: undefined,
   tOff___10504: undefined,
   tab___10506: undefined,
-  unnamed90___U6: undefined,
-  unnamed91___U7: undefined,
+  unnamed734___U6: undefined,
+  unnamed735___U7: undefined,
   padding___10508: undefined,
 } }
 
@@ -13291,8 +13291,8 @@ switch (step) {
   case 0:
 
     s.s___10795 = undefined;
-    s.unnamed88___U1 = undefined;
-    s.unnamed89___U2 = undefined;
+    s.unnamed732___U1 = undefined;
+    s.unnamed733___U2 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
@@ -13367,15 +13367,15 @@ switch (step) {
   case 8:
     s.s___10795 = (undefined);
     r0 = s.arg0.fields["allSprites"];
-    s.unnamed88___U1 = (r0);
-    s.unnamed89___U2 = (0);
+    s.unnamed732___U1 = (r0);
+    s.unnamed733___U2 = (0);
   case 9:
-    s.tmp_0 = r0 = s.unnamed89___U2;
-    r0 = pxsim_Array__length(s.unnamed88___U1);
+    s.tmp_0 = r0 = s.unnamed733___U2;
+    r0 = pxsim_Array__length(s.unnamed732___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 10; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed88___U1, s.unnamed89___U2);
+    r0 = pxsim_Array__getAt(s.unnamed732___U1, s.unnamed733___U2);
     s.s___10795 = (r0);
     s.tmp_2 = if___draw_2_mk(s);
     s.tmp_2.arg0 = s.s___10795;
@@ -13392,11 +13392,11 @@ switch (step) {
     }
   case 15:
     r0 = s.retval;
-    r0 = (s.unnamed89___U2 + 1);
-    s.unnamed89___U2 = (r0);
+    r0 = (s.unnamed733___U2 + 1);
+    s.unnamed733___U2 = (r0);
     { step = 9; continue; }
   case 10:
-    s.unnamed88___U1 = (undefined);
+    s.unnamed732___U1 = (undefined);
     s.tmp_0 = r0 = s.arg0;
     r0 = s.tmp_0.fields["flags"];
     s.tmp_2 = r0;
@@ -13421,8 +13421,8 @@ function scene_Scene_render__P2872_mk(s) {
   tmp_3: undefined,
   tmp_4: undefined,
   s___10795: undefined,
-  unnamed88___U1: undefined,
-  unnamed89___U2: undefined,
+  unnamed732___U1: undefined,
+  unnamed733___U2: undefined,
   arg0: undefined,
 } }
 
@@ -22205,7 +22205,7 @@ function scene_Background_image__P2675_mk(s) {
 
 
 
-function salutacio__P4333(s) {
+function salutacio__P30714(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -22229,9 +22229,13 @@ switch (step) {
     s.callLocIdx = 72; s.pc = 5; return s.tmp_1;
   case 5:
     r0 = s.retval;
-    s.tmp_0 = celsius_to_fahrenheit__P4334_mk(s);
+    s.tmp_0 = celsius_to_fahrenheit__P30721_mk(s);
     s.callLocIdx = 73; s.pc = 6; return s.tmp_0;
   case 6:
+    r0 = s.retval;
+    s.tmp_0 = menu__P30691_mk(s);
+    s.callLocIdx = 74; s.pc = 7; return s.tmp_0;
+  case 7:
     r0 = s.retval;
     { step = 4; continue; }
   case 1:
@@ -22242,26 +22246,41 @@ switch (step) {
     s.tmp_1 = game_showLongText__P2960_mk(s);
     s.tmp_1.arg0 = "De Fahrenheit (ºF) a Celsius (ºC)  ";
     s.tmp_1.arg1 = 0;
-    s.callLocIdx = 74; s.pc = 7; return s.tmp_1;
-  case 7:
-    r0 = s.retval;
-    s.tmp_0 = fahrenheit_to_celsius__P4335_mk(s);
-    s.callLocIdx = 75; s.pc = 8; return s.tmp_0;
+    s.callLocIdx = 75; s.pc = 8; return s.tmp_1;
   case 8:
     r0 = s.retval;
+    s.tmp_0 = fahrenheit_to_celsius__P30728_mk(s);
+    s.callLocIdx = 76; s.pc = 9; return s.tmp_0;
+  case 9:
+    r0 = s.retval;
+    s.tmp_0 = menu__P30691_mk(s);
+    s.callLocIdx = 77; s.pc = 10; return s.tmp_0;
+  case 10:
+    r0 = s.retval;
+    { step = 3; continue; }
   case 2:
+    s.tmp_0 = game_showLongText__P2960_mk(s);
+    s.tmp_0.arg0 = "Numero incorrecte";
+    s.tmp_0.arg1 = 3;
+    s.callLocIdx = 78; s.pc = 11; return s.tmp_0;
+  case 11:
+    r0 = s.retval;
+    s.tmp_0 = menu__P30691_mk(s);
+    s.callLocIdx = 79; s.pc = 12; return s.tmp_0;
+  case 12:
+    r0 = s.retval;
   case 3:
   case 4:
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-salutacio__P4333.info = {"start":11514,"length":333,"line":82,"column":0,"endLine":91,"endColumn":1,"fileName":"main.ts","functionName":"salutacio","argumentNames":["opcion"]}
+salutacio__P30714.info = {"start":11514,"length":456,"line":82,"column":0,"endLine":96,"endColumn":1,"fileName":"main.ts","functionName":"salutacio","argumentNames":["opcion"]}
 
-function salutacio__P4333_mk(s) {
+function salutacio__P30714_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: salutacio__P4333, depth: s.depth + 1,
+        parent: s, fn: salutacio__P30714, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -22272,7 +22291,7 @@ function salutacio__P4333_mk(s) {
 
 
 
-function fahrenheit_to_celsius__P4335(s) {
+function fahrenheit_to_celsius__P30728(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -22282,25 +22301,25 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.numero___7012 = undefined;
-    s.graus_convertit___7014 = undefined;
+    s.numero___30752 = undefined;
+    s.graus_convertit___30754 = undefined;
     s.tmp_0 = game_askForNumber__P3046_mk(s);
     s.tmp_0.arg0 = "Introdueix la temperatura en ºC";
     s.tmp_0.arg1 = 2;
-    s.callLocIdx = 81; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 85; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    s.numero___7012 = (r0);
-    r0 = (s.numero___7012 - 32);
+    s.numero___30752 = (r0);
+    r0 = (s.numero___30752 - 32);
     s.tmp_1 = r0;
     r0 = (s.tmp_1 * 5);
     s.tmp_0 = r0;
     r0 = (s.tmp_0 / 9);
-    s.graus_convertit___7014 = (r0);
+    s.graus_convertit___30754 = (r0);
     s.tmp_0 = game_showLongText__P2960_mk(s);
-    s.tmp_3 = redondear__P4332_mk(s);
-    s.tmp_3.arg0 = s.graus_convertit___7014;
-    s.callLocIdx = 82; s.pc = 3; return s.tmp_3;
+    s.tmp_3 = redondear__P30702_mk(s);
+    s.tmp_3.arg0 = s.graus_convertit___30754;
+    s.callLocIdx = 86; s.pc = 3; return s.tmp_3;
   case 3:
     r0 = s.retval;
     s.tmp_2 = r0;
@@ -22316,33 +22335,33 @@ switch (step) {
     r0 = pxsim_String__concat(s.tmp_1, " ºF");
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = 0;
-    s.callLocIdx = 83; s.pc = 2; return s.tmp_0;
+    s.callLocIdx = 87; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-fahrenheit_to_celsius__P4335.info = {"start":12100,"length":236,"line":100,"column":0,"endLine":104,"endColumn":1,"fileName":"main.ts","functionName":"fahrenheit_to_celsius","argumentNames":[]}
+fahrenheit_to_celsius__P30728.info = {"start":12223,"length":236,"line":105,"column":0,"endLine":109,"endColumn":1,"fileName":"main.ts","functionName":"fahrenheit_to_celsius","argumentNames":[]}
 
-function fahrenheit_to_celsius__P4335_mk(s) {
+function fahrenheit_to_celsius__P30728_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: fahrenheit_to_celsius__P4335, depth: s.depth + 1,
+        parent: s, fn: fahrenheit_to_celsius__P30728, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
   tmp_2: undefined,
   tmp_3: undefined,
-  numero___7012: undefined,
-  graus_convertit___7014: undefined,
+  numero___30752: undefined,
+  graus_convertit___30754: undefined,
 } }
 
 
 
 
 
-function redondear__P4332(s) {
+function redondear__P30702(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -22352,33 +22371,33 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.multiplicador___6972 = undefined;
-    s.truncat___6975 = undefined;
-    s.resultado___6978 = undefined;
+    s.multiplicador___30704 = undefined;
+    s.truncat___30707 = undefined;
+    s.resultado___30710 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
     }
     r0 = (s.arg0 * 100);
-    s.multiplicador___6972 = (r0);
-    r0 = (s.multiplicador___6972 | 0);
-    s.truncat___6975 = (r0);
-    r0 = (s.truncat___6975 / 100);
-    s.resultado___6978 = (r0);
-    r0 = s.resultado___6978;
+    s.multiplicador___30704 = (r0);
+    r0 = (s.multiplicador___30704 | 0);
+    s.truncat___30707 = (r0);
+    r0 = (s.truncat___30707 / 100);
+    s.resultado___30710 = (r0);
+    r0 = s.resultado___30710;
     return leave(s, r0)
   default: oops()
 } } }
-redondear__P4332.info = {"start":11338,"length":174,"line":75,"column":0,"endLine":80,"endColumn":1,"fileName":"main.ts","functionName":"redondear","argumentNames":["numero"]}
+redondear__P30702.info = {"start":11338,"length":174,"line":75,"column":0,"endLine":80,"endColumn":1,"fileName":"main.ts","functionName":"redondear","argumentNames":["numero"]}
 
-function redondear__P4332_mk(s) {
+function redondear__P30702_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: redondear__P4332, depth: s.depth + 1,
+        parent: s, fn: redondear__P30702, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
-  multiplicador___6972: undefined,
-  truncat___6975: undefined,
-  resultado___6978: undefined,
+  multiplicador___30704: undefined,
+  truncat___30707: undefined,
+  resultado___30710: undefined,
   arg0: undefined,
 } }
 
@@ -22386,7 +22405,7 @@ function redondear__P4332_mk(s) {
 
 
 
-function celsius_to_fahrenheit__P4334(s) {
+function celsius_to_fahrenheit__P30721(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -22396,25 +22415,25 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0) || runtime !== pxsim.runtime) re
 switch (step) {
   case 0:
 
-    s.numero___6995 = undefined;
-    s.graus_convertit___6997 = undefined;
+    s.numero___30735 = undefined;
+    s.graus_convertit___30737 = undefined;
     s.tmp_0 = game_askForNumber__P3046_mk(s);
     s.tmp_0.arg0 = "Introdueix la temperatura en ºC";
     s.tmp_0.arg1 = 2;
-    s.callLocIdx = 78; s.pc = 1; return s.tmp_0;
+    s.callLocIdx = 82; s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    s.numero___6995 = (r0);
-    r0 = (s.numero___6995 * 9);
+    s.numero___30735 = (r0);
+    r0 = (s.numero___30735 * 9);
     s.tmp_1 = r0;
     r0 = (s.tmp_1 / 5);
     s.tmp_0 = r0;
     r0 = (s.tmp_0 + 32);
-    s.graus_convertit___6997 = (r0);
+    s.graus_convertit___30737 = (r0);
     s.tmp_0 = game_showLongText__P2960_mk(s);
-    s.tmp_3 = redondear__P4332_mk(s);
-    s.tmp_3.arg0 = s.graus_convertit___6997;
-    s.callLocIdx = 79; s.pc = 3; return s.tmp_3;
+    s.tmp_3 = redondear__P30702_mk(s);
+    s.tmp_3.arg0 = s.graus_convertit___30737;
+    s.callLocIdx = 83; s.pc = 3; return s.tmp_3;
   case 3:
     r0 = s.retval;
     s.tmp_2 = r0;
@@ -22430,26 +22449,26 @@ switch (step) {
     r0 = pxsim_String__concat(s.tmp_1, " ºC");
     s.tmp_0.arg0 = r0;
     s.tmp_0.arg1 = 3;
-    s.callLocIdx = 80; s.pc = 2; return s.tmp_0;
+    s.callLocIdx = 84; s.pc = 2; return s.tmp_0;
   case 2:
     r0 = s.retval;
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-celsius_to_fahrenheit__P4334.info = {"start":11867,"length":231,"line":94,"column":0,"endLine":98,"endColumn":1,"fileName":"main.ts","functionName":"celsius_to_fahrenheit","argumentNames":[]}
+celsius_to_fahrenheit__P30721.info = {"start":11990,"length":231,"line":99,"column":0,"endLine":103,"endColumn":1,"fileName":"main.ts","functionName":"celsius_to_fahrenheit","argumentNames":[]}
 
-function celsius_to_fahrenheit__P4334_mk(s) {
+function celsius_to_fahrenheit__P30721_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: celsius_to_fahrenheit__P4334, depth: s.depth + 1,
+        parent: s, fn: celsius_to_fahrenheit__P30721, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
   tmp_2: undefined,
   tmp_3: undefined,
-  numero___6995: undefined,
-  graus_convertit___6997: undefined,
+  numero___30735: undefined,
+  graus_convertit___30737: undefined,
 } }
 
 
@@ -24021,27 +24040,27 @@ switch (step) {
 
     s.off___14245 = undefined;
     s.n___14247 = undefined;
-    s.unnamed50___U2 = undefined;
-    s.unnamed51___U3 = undefined;
+    s.unnamed694___U2 = undefined;
+    s.unnamed695___U3 = undefined;
     s.buf___14257 = undefined;
     s.n___14263 = undefined;
-    s.unnamed52___U6 = undefined;
-    s.unnamed53___U7 = undefined;
+    s.unnamed696___U6 = undefined;
+    s.unnamed697___U7 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
     }
     s.off___14245 = (0);
     s.n___14247 = (undefined);
-    s.unnamed50___U2 = (s.arg0);
-    s.unnamed51___U3 = (0);
+    s.unnamed694___U2 = (s.arg0);
+    s.unnamed695___U3 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed51___U3;
-    r0 = pxsim_Array__length(s.unnamed50___U2);
+    s.tmp_0 = r0 = s.unnamed695___U3;
+    r0 = pxsim_Array__length(s.unnamed694___U2);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed50___U2, s.unnamed51___U3);
+    r0 = pxsim_Array__getAt(s.unnamed694___U2, s.unnamed695___U3);
     s.n___14247 = (r0);
     s.tmp_2 = r0 = s.off___14245;
     s.tmp_4 = msgpack_packNumberCore__P4360_mk(s);
@@ -24054,24 +24073,24 @@ switch (step) {
     s.tmp_3 = r0;
     r0 = (s.tmp_2 + s.tmp_3);
     s.off___14245 = (r0);
-    r0 = (s.unnamed51___U3 + 1);
-    s.unnamed51___U3 = (r0);
+    r0 = (s.unnamed695___U3 + 1);
+    s.unnamed695___U3 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed50___U2 = (undefined);
+    s.unnamed694___U2 = (undefined);
     r0 = pxsim.control.createBuffer(s.off___14245);
     s.buf___14257 = (r0);
     s.off___14245 = (0);
     s.n___14263 = (undefined);
-    s.unnamed52___U6 = (s.arg0);
-    s.unnamed53___U7 = (0);
+    s.unnamed696___U6 = (s.arg0);
+    s.unnamed697___U7 = (0);
   case 3:
-    s.tmp_0 = r0 = s.unnamed53___U7;
-    r0 = pxsim_Array__length(s.unnamed52___U6);
+    s.tmp_0 = r0 = s.unnamed697___U7;
+    r0 = pxsim_Array__length(s.unnamed696___U6);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed52___U6, s.unnamed53___U7);
+    r0 = pxsim_Array__getAt(s.unnamed696___U6, s.unnamed697___U7);
     s.n___14263 = (r0);
     s.tmp_2 = r0 = s.off___14245;
     s.tmp_4 = msgpack_packNumberCore__P4360_mk(s);
@@ -24084,11 +24103,11 @@ switch (step) {
     s.tmp_3 = r0;
     r0 = (s.tmp_2 + s.tmp_3);
     s.off___14245 = (r0);
-    r0 = (s.unnamed53___U7 + 1);
-    s.unnamed53___U7 = (r0);
+    r0 = (s.unnamed697___U7 + 1);
+    s.unnamed697___U7 = (r0);
     { step = 3; continue; }
   case 4:
-    s.unnamed52___U6 = (undefined);
+    s.unnamed696___U6 = (undefined);
     r0 = s.buf___14257;
     return leave(s, r0)
   default: oops()
@@ -24107,12 +24126,12 @@ function msgpack_packNumberArray__P184_mk(s) {
   tmp_4: undefined,
   off___14245: undefined,
   n___14247: undefined,
-  unnamed50___U2: undefined,
-  unnamed51___U3: undefined,
+  unnamed694___U2: undefined,
+  unnamed695___U3: undefined,
   buf___14257: undefined,
   n___14263: undefined,
-  unnamed52___U6: undefined,
-  unnamed53___U7: undefined,
+  unnamed696___U6: undefined,
+  unnamed697___U7: undefined,
   arg0: undefined,
 } }
 
@@ -26845,11 +26864,11 @@ switch (step) {
 
     s.out___14140 = undefined;
     s.value___14143 = undefined;
-    s.unnamed46___U2 = undefined;
-    s.unnamed47___U3 = undefined;
+    s.unnamed690___U2 = undefined;
+    s.unnamed691___U3 = undefined;
     s.value___14150 = undefined;
-    s.unnamed48___U5 = undefined;
-    s.unnamed49___U6 = undefined;
+    s.unnamed692___U5 = undefined;
+    s.unnamed693___U6 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.arg1 = (s.lambdaArgs[1]);
@@ -26858,39 +26877,39 @@ switch (step) {
     r0 = pxsim_Array__mk();
     s.out___14140 = (r0);
     s.value___14143 = (undefined);
-    s.unnamed46___U2 = (s.arg0);
-    s.unnamed47___U3 = (0);
+    s.unnamed690___U2 = (s.arg0);
+    s.unnamed691___U3 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed47___U3;
-    r0 = pxsim_Array__length(s.unnamed46___U2);
+    s.tmp_0 = r0 = s.unnamed691___U3;
+    r0 = pxsim_Array__length(s.unnamed690___U2);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 2; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed46___U2, s.unnamed47___U3);
+    r0 = pxsim_Array__getAt(s.unnamed690___U2, s.unnamed691___U3);
     s.value___14143 = (r0);
     r0 = pxsim_Array__push(s.out___14140, s.value___14143);
-    r0 = (s.unnamed47___U3 + 1);
-    s.unnamed47___U3 = (r0);
+    r0 = (s.unnamed691___U3 + 1);
+    s.unnamed691___U3 = (r0);
     { step = 1; continue; }
   case 2:
-    s.unnamed46___U2 = (undefined);
+    s.unnamed690___U2 = (undefined);
     s.value___14150 = (undefined);
-    s.unnamed48___U5 = (s.arg1);
-    s.unnamed49___U6 = (0);
+    s.unnamed692___U5 = (s.arg1);
+    s.unnamed693___U6 = (0);
   case 3:
-    s.tmp_0 = r0 = s.unnamed49___U6;
-    r0 = pxsim_Array__length(s.unnamed48___U5);
+    s.tmp_0 = r0 = s.unnamed693___U6;
+    r0 = pxsim_Array__length(s.unnamed692___U5);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed48___U5, s.unnamed49___U6);
+    r0 = pxsim_Array__getAt(s.unnamed692___U5, s.unnamed693___U6);
     s.value___14150 = (r0);
     r0 = pxsim_Array__push(s.out___14140, s.value___14150);
-    r0 = (s.unnamed49___U6 + 1);
-    s.unnamed49___U6 = (r0);
+    r0 = (s.unnamed693___U6 + 1);
+    s.unnamed693___U6 = (r0);
     { step = 3; continue; }
   case 4:
-    s.unnamed48___U5 = (undefined);
+    s.unnamed692___U5 = (undefined);
     r0 = s.out___14140;
     return leave(s, r0)
   default: oops()
@@ -26906,11 +26925,11 @@ function helpers_arrayConcat__P113_mk(s) {
   tmp_1: undefined,
   out___14140: undefined,
   value___14143: undefined,
-  unnamed46___U2: undefined,
-  unnamed47___U3: undefined,
+  unnamed690___U2: undefined,
+  unnamed691___U3: undefined,
   value___14150: undefined,
-  unnamed48___U5: undefined,
-  unnamed49___U6: undefined,
+  unnamed692___U5: undefined,
+  unnamed693___U6: undefined,
   arg0: undefined,
   arg1: undefined,
 } }
@@ -35429,8 +35448,8 @@ switch (step) {
     s.obstacle___16513 = undefined;
     s.collisionDirection___16540 = undefined;
     s.tile___16566 = undefined;
-    s.unnamed80___U14 = undefined;
-    s.unnamed81___U15 = undefined;
+    s.unnamed724___U14 = undefined;
+    s.unnamed725___U15 = undefined;
     s.down___16657 = undefined;
     s.y0___16661 = undefined;
     s.collidedTiles___16676 = undefined;
@@ -35439,8 +35458,8 @@ switch (step) {
     s.obstacle___16702 = undefined;
     s.collisionDirection___16729 = undefined;
     s.tile___16755 = undefined;
-    s.unnamed82___U24 = undefined;
-    s.unnamed83___U25 = undefined;
+    s.unnamed726___U24 = undefined;
+    s.unnamed727___U25 = undefined;
     s.overlappedTiles___16849 = undefined;
     s.x___16851 = undefined;
     s.x0___16861 = undefined;
@@ -35703,15 +35722,15 @@ switch (step) {
     s.tmp_9 = r0;
     r0 = (s.tmp_8).fields["_x"] = (s.tmp_9);
     s.tile___16566 = (undefined);
-    s.unnamed80___U14 = (s.collidedTiles___16481);
-    s.unnamed81___U15 = (0);
+    s.unnamed724___U14 = (s.collidedTiles___16481);
+    s.unnamed725___U15 = (0);
   case 19:
-    s.tmp_0 = r0 = s.unnamed81___U15;
-    r0 = pxsim_Array__length(s.unnamed80___U14);
+    s.tmp_0 = r0 = s.unnamed725___U15;
+    r0 = pxsim_Array__length(s.unnamed724___U14);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 22; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed80___U14, s.unnamed81___U15);
+    r0 = pxsim_Array__getAt(s.unnamed724___U14, s.unnamed725___U15);
     s.tile___16566 = (r0);
     r0 = s.s___16404.fields["flags"];
     s.tmp_5 = r0;
@@ -35733,11 +35752,11 @@ switch (step) {
     r0 = s.retval;
   case 20:
   case 21:
-    r0 = (s.unnamed81___U15 + 1);
-    s.unnamed81___U15 = (r0);
+    r0 = (s.unnamed725___U15 + 1);
+    s.unnamed725___U15 = (r0);
     { step = 19; continue; }
   case 22:
-    s.unnamed80___U14 = (undefined);
+    s.unnamed724___U14 = (undefined);
     r0 = s.s___16404.fields["flags"];
     s.tmp_1 = r0;
     r0 = (s.tmp_1 & 16);
@@ -36055,15 +36074,15 @@ switch (step) {
     s.tmp_9 = r0;
     r0 = (s.tmp_8).fields["_y"] = (s.tmp_9);
     s.tile___16755 = (undefined);
-    s.unnamed82___U24 = (s.collidedTiles___16676);
-    s.unnamed83___U25 = (0);
+    s.unnamed726___U24 = (s.collidedTiles___16676);
+    s.unnamed727___U25 = (0);
   case 57:
-    s.tmp_0 = r0 = s.unnamed83___U25;
-    r0 = pxsim_Array__length(s.unnamed82___U24);
+    s.tmp_0 = r0 = s.unnamed727___U25;
+    r0 = pxsim_Array__length(s.unnamed726___U24);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 60; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed82___U24, s.unnamed83___U25);
+    r0 = pxsim_Array__getAt(s.unnamed726___U24, s.unnamed727___U25);
     s.tile___16755 = (r0);
     r0 = s.s___16404.fields["flags"];
     s.tmp_5 = r0;
@@ -36085,11 +36104,11 @@ switch (step) {
     r0 = s.retval;
   case 58:
   case 59:
-    r0 = (s.unnamed83___U25 + 1);
-    s.unnamed83___U25 = (r0);
+    r0 = (s.unnamed727___U25 + 1);
+    s.unnamed727___U25 = (r0);
     { step = 57; continue; }
   case 60:
-    s.unnamed82___U24 = (undefined);
+    s.unnamed726___U24 = (undefined);
     r0 = s.s___16404.fields["flags"];
     s.tmp_1 = r0;
     r0 = (s.tmp_1 & 16);
@@ -36457,8 +36476,8 @@ function ArcadePhysicsEngine_tilemapCollisions__P4779_mk(s) {
   obstacle___16513: undefined,
   collisionDirection___16540: undefined,
   tile___16566: undefined,
-  unnamed80___U14: undefined,
-  unnamed81___U15: undefined,
+  unnamed724___U14: undefined,
+  unnamed725___U15: undefined,
   down___16657: undefined,
   y0___16661: undefined,
   collidedTiles___16676: undefined,
@@ -36467,8 +36486,8 @@ function ArcadePhysicsEngine_tilemapCollisions__P4779_mk(s) {
   obstacle___16702: undefined,
   collisionDirection___16729: undefined,
   tile___16755: undefined,
-  unnamed82___U24: undefined,
-  unnamed83___U25: undefined,
+  unnamed726___U24: undefined,
+  unnamed727___U25: undefined,
   overlappedTiles___16849: undefined,
   x___16851: undefined,
   x0___16861: undefined,
@@ -36571,8 +36590,8 @@ switch (step) {
 
     s.alreadyHandled___16928 = undefined;
     s.tile___16931 = undefined;
-    s.unnamed84___U2 = undefined;
-    s.unnamed85___U3 = undefined;
+    s.unnamed728___U2 = undefined;
+    s.unnamed729___U3 = undefined;
     s.tileOverlapHandlers___16952 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
@@ -36585,15 +36604,15 @@ switch (step) {
     r0 = pxsim_Array__mk();
     s.alreadyHandled___16928 = (r0);
     s.tile___16931 = (undefined);
-    s.unnamed84___U2 = (s.arg2);
-    s.unnamed85___U3 = (0);
+    s.unnamed728___U2 = (s.arg2);
+    s.unnamed729___U3 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed85___U3;
-    r0 = pxsim_Array__length(s.unnamed84___U2);
+    s.tmp_0 = r0 = s.unnamed729___U3;
+    r0 = pxsim_Array__length(s.unnamed728___U2);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 7; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed84___U2, s.unnamed85___U3);
+    r0 = pxsim_Array__getAt(s.unnamed728___U2, s.unnamed729___U3);
     s.tile___16931 = (r0);
     r0 = pxsim_pxtcore_mkAction(1, ArcadePhysicsEngine_tilemapOverlaps_inline__P16935);
     s.tmp_2 = r0;
@@ -36642,11 +36661,11 @@ switch (step) {
   case 4:
   case 5:
   case 6:
-    r0 = (s.unnamed85___U3 + 1);
-    s.unnamed85___U3 = (r0);
+    r0 = (s.unnamed729___U3 + 1);
+    s.unnamed729___U3 = (r0);
     { step = 1; continue; }
   case 7:
-    s.unnamed84___U2 = (undefined);
+    s.unnamed728___U2 = (undefined);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
@@ -36665,8 +36684,8 @@ function ArcadePhysicsEngine_tilemapOverlaps__P4780_mk(s) {
   tmp_4: undefined,
   alreadyHandled___16928: undefined,
   tile___16931: undefined,
-  unnamed84___U2: undefined,
-  unnamed85___U3: undefined,
+  unnamed728___U2: undefined,
+  unnamed729___U3: undefined,
   tileOverlapHandlers___16952: undefined,
   arg0: undefined,
   arg1: undefined,
@@ -38581,8 +38600,8 @@ switch (step) {
     s.currMovers___17361 = undefined;
     s.remainingMovers___17368 = undefined;
     s.ms___17373 = undefined;
-    s.unnamed74___U13 = undefined;
-    s.unnamed75___U14 = undefined;
+    s.unnamed718___U13 = undefined;
+    s.unnamed719___U14 = undefined;
     s.s___17375 = undefined;
     s.stepX___17468 = undefined;
     s.stepY___17482 = undefined;
@@ -38704,15 +38723,15 @@ switch (step) {
     r0 = pxsim_Array__getAt(s.buffers___17347, s.selected___17346);
     s.remainingMovers___17368 = (r0);
     s.ms___17373 = (undefined);
-    s.unnamed74___U13 = (s.currMovers___17361);
-    s.unnamed75___U14 = (0);
+    s.unnamed718___U13 = (s.currMovers___17361);
+    s.unnamed719___U14 = (0);
   case 4:
-    s.tmp_0 = r0 = s.unnamed75___U14;
-    r0 = pxsim_Array__length(s.unnamed74___U13);
+    s.tmp_0 = r0 = s.unnamed719___U14;
+    r0 = pxsim_Array__length(s.unnamed718___U13);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 49; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed74___U13, s.unnamed75___U14);
+    r0 = pxsim_Array__getAt(s.unnamed718___U13, s.unnamed719___U14);
     s.ms___17373 = (r0);
     r0 = s.ms___17373.fields["sprite"];
     s.s___17375 = (r0);
@@ -39074,11 +39093,11 @@ switch (step) {
     r0 = pxsim_Array__push(s.remainingMovers___17368, s.ms___17373);
   case 47:
   case 48:
-    r0 = (s.unnamed75___U14 + 1);
-    s.unnamed75___U14 = (r0);
+    r0 = (s.unnamed719___U14 + 1);
+    s.unnamed719___U14 = (r0);
     { step = 4; continue; }
   case 49:
-    s.unnamed74___U13 = (undefined);
+    s.unnamed718___U13 = (undefined);
     s.tmp_0 = ArcadePhysicsEngine_spriteCollisions__P4777_mk(s);
     s.tmp_0.arg0 = s.arg0;
     s.tmp_0.arg1 = s.currMovers___17361;
@@ -39134,8 +39153,8 @@ function ArcadePhysicsEngine_move__P2539_mk(s) {
   currMovers___17361: undefined,
   remainingMovers___17368: undefined,
   ms___17373: undefined,
-  unnamed74___U13: undefined,
-  unnamed75___U14: undefined,
+  unnamed718___U13: undefined,
+  unnamed719___U14: undefined,
   s___17375: undefined,
   stepX___17468: undefined,
   stepY___17482: undefined,
@@ -39768,13 +39787,13 @@ switch (step) {
   case 0:
 
     s.ms___17602 = undefined;
-    s.unnamed76___U1 = undefined;
-    s.unnamed77___U2 = undefined;
+    s.unnamed720___U1 = undefined;
+    s.unnamed721___U2 = undefined;
     s.sprite___17604 = undefined;
     s.overSprites___17611 = undefined;
     s.overlapper___17619 = undefined;
-    s.unnamed78___U6 = undefined;
-    s.unnamed79___U7 = undefined;
+    s.unnamed722___U6 = undefined;
+    s.unnamed723___U7 = undefined;
     s.thisKind___17625 = undefined;
     s.otherKind___17629 = undefined;
     s.higher___17642 = undefined;
@@ -39799,15 +39818,15 @@ switch (step) {
   case 1:
   case 2:
     s.ms___17602 = (undefined);
-    s.unnamed76___U1 = (s.arg1);
-    s.unnamed77___U2 = (0);
+    s.unnamed720___U1 = (s.arg1);
+    s.unnamed721___U2 = (0);
   case 3:
-    s.tmp_0 = r0 = s.unnamed77___U2;
-    r0 = pxsim_Array__length(s.unnamed76___U1);
+    s.tmp_0 = r0 = s.unnamed721___U2;
+    r0 = pxsim_Array__length(s.unnamed720___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 20; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed76___U1, s.unnamed77___U2);
+    r0 = pxsim_Array__getAt(s.unnamed720___U1, s.unnamed721___U2);
     s.ms___17602 = (r0);
     r0 = s.ms___17602.fields["sprite"];
     s.sprite___17604 = (r0);
@@ -39830,15 +39849,15 @@ switch (step) {
     r0 = s.retval;
     s.overSprites___17611 = (r0);
     s.overlapper___17619 = (undefined);
-    s.unnamed78___U6 = (s.overSprites___17611);
-    s.unnamed79___U7 = (0);
+    s.unnamed722___U6 = (s.overSprites___17611);
+    s.unnamed723___U7 = (0);
   case 6:
-    s.tmp_0 = r0 = s.unnamed79___U7;
-    r0 = pxsim_Array__length(s.unnamed78___U6);
+    s.tmp_0 = r0 = s.unnamed723___U7;
+    r0 = pxsim_Array__length(s.unnamed722___U6);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 18; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed78___U6, s.unnamed79___U7);
+    r0 = pxsim_Array__getAt(s.unnamed722___U6, s.unnamed723___U7);
     s.overlapper___17619 = (r0);
     r0 = s.overlapper___17619.fields["flags"];
     s.tmp_3 = r0;
@@ -39928,17 +39947,17 @@ switch (step) {
   case 15:
   case 16:
   case 17:
-    r0 = (s.unnamed79___U7 + 1);
-    s.unnamed79___U7 = (r0);
+    r0 = (s.unnamed723___U7 + 1);
+    s.unnamed723___U7 = (r0);
     { step = 6; continue; }
   case 18:
-    s.unnamed78___U6 = (undefined);
+    s.unnamed722___U6 = (undefined);
   case 19:
-    r0 = (s.unnamed77___U2 + 1);
-    s.unnamed77___U2 = (r0);
+    r0 = (s.unnamed721___U2 + 1);
+    s.unnamed721___U2 = (r0);
     { step = 3; continue; }
   case 20:
-    s.unnamed76___U1 = (undefined);
+    s.unnamed720___U1 = (undefined);
   case 21:
     r0 = undefined;
     return leave(s, r0)
@@ -39960,13 +39979,13 @@ function ArcadePhysicsEngine_spriteCollisions__P4777_mk(s) {
   tmp_6: undefined,
   tmp_7: undefined,
   ms___17602: undefined,
-  unnamed76___U1: undefined,
-  unnamed77___U2: undefined,
+  unnamed720___U1: undefined,
+  unnamed721___U2: undefined,
   sprite___17604: undefined,
   overSprites___17611: undefined,
   overlapper___17619: undefined,
-  unnamed78___U6: undefined,
-  unnamed79___U7: undefined,
+  unnamed722___U6: undefined,
+  unnamed723___U7: undefined,
   thisKind___17625: undefined,
   otherKind___17629: undefined,
   higher___17642: undefined,
@@ -40444,8 +40463,8 @@ switch (step) {
     s.k___18057 = undefined;
     s.bucket___18062 = undefined;
     s.sprite___18069 = undefined;
-    s.unnamed72___U3 = undefined;
-    s.unnamed73___U4 = undefined;
+    s.unnamed716___U3 = undefined;
+    s.unnamed717___U4 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.arg1 = (s.lambdaArgs[1]);
@@ -40471,15 +40490,15 @@ switch (step) {
     r0 = pxsim_numops_toBoolDecr(s.bucket___18062);
     if (!r0) { step = 7; continue; }
     s.sprite___18069 = (undefined);
-    s.unnamed72___U3 = (s.bucket___18062);
-    s.unnamed73___U4 = (0);
+    s.unnamed716___U3 = (s.bucket___18062);
+    s.unnamed717___U4 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed73___U4;
-    r0 = pxsim_Array__length(s.unnamed72___U3);
+    s.tmp_0 = r0 = s.unnamed717___U4;
+    r0 = pxsim_Array__length(s.unnamed716___U3);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 6; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed72___U3, s.unnamed73___U4);
+    r0 = pxsim_Array__getAt(s.unnamed716___U3, s.unnamed717___U4);
     s.sprite___18069 = (r0);
     r0 = s.sprite___18069.fields["layer"];
     s.tmp_3 = r0;
@@ -40501,11 +40520,11 @@ switch (step) {
     r0 = pxsim_Array__push(s.arg4, s.sprite___18069);
   case 4:
   case 5:
-    r0 = (s.unnamed73___U4 + 1);
-    s.unnamed73___U4 = (r0);
+    r0 = (s.unnamed717___U4 + 1);
+    s.unnamed717___U4 = (r0);
     { step = 1; continue; }
   case 6:
-    s.unnamed72___U3 = (undefined);
+    s.unnamed716___U3 = (undefined);
   case 7:
   case 8:
     r0 = undefined;
@@ -40528,8 +40547,8 @@ function sprites_SpriteMap_mergeAtKey__P4741_mk(s) {
   k___18057: undefined,
   bucket___18062: undefined,
   sprite___18069: undefined,
-  unnamed72___U3: undefined,
-  unnamed73___U4: undefined,
+  unnamed716___U3: undefined,
+  unnamed717___U4: undefined,
   arg0: undefined,
   arg1: undefined,
   arg2: undefined,
@@ -42360,8 +42379,8 @@ switch (step) {
     s.maxWidth___18362 = undefined;
     s.maxHeight___18363 = undefined;
     s.sprite___18365 = undefined;
-    s.unnamed70___U3 = undefined;
-    s.unnamed71___U4 = undefined;
+    s.unnamed714___U3 = undefined;
+    s.unnamed715___U4 = undefined;
     s.tMap___18381 = undefined;
     s.areaWidth___18385 = undefined;
     s.areaHeight___18392 = undefined;
@@ -42375,15 +42394,15 @@ switch (step) {
     s.maxWidth___18362 = (0);
     s.maxHeight___18363 = (0);
     s.sprite___18365 = (undefined);
-    s.unnamed70___U3 = (s.arg1);
-    s.unnamed71___U4 = (0);
+    s.unnamed714___U3 = (s.arg1);
+    s.unnamed715___U4 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed71___U4;
-    r0 = pxsim_Array__length(s.unnamed70___U3);
+    s.tmp_0 = r0 = s.unnamed715___U4;
+    r0 = pxsim_Array__length(s.unnamed714___U3);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 6; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed70___U3, s.unnamed71___U4);
+    r0 = pxsim_Array__getAt(s.unnamed714___U3, s.unnamed715___U4);
     s.sprite___18365 = (r0);
     s.tmp_4 = Sprite_width__P2397_mk(s);
     s.tmp_4.arg0 = s.sprite___18365;
@@ -42421,11 +42440,11 @@ switch (step) {
     s.maxHeight___18363 = (r0);
   case 4:
   case 5:
-    r0 = (s.unnamed71___U4 + 1);
-    s.unnamed71___U4 = (r0);
+    r0 = (s.unnamed715___U4 + 1);
+    s.unnamed715___U4 = (r0);
     { step = 1; continue; }
   case 6:
-    s.unnamed70___U3 = (undefined);
+    s.unnamed714___U3 = (undefined);
     s.tmp_0 = game_currentScene__P2999_mk(s);
     s.callLocIdx = 496; s.pc = 15; return s.tmp_0;
   case 15:
@@ -42516,8 +42535,8 @@ function sprites_SpriteMap_resizeBuckets__P2451_mk(s) {
   maxWidth___18362: undefined,
   maxHeight___18363: undefined,
   sprite___18365: undefined,
-  unnamed70___U3: undefined,
-  unnamed71___U4: undefined,
+  unnamed714___U3: undefined,
+  unnamed715___U4: undefined,
   tMap___18381: undefined,
   areaWidth___18385: undefined,
   areaHeight___18392: undefined,
@@ -44836,8 +44855,8 @@ switch (step) {
 
     s.ctrl___19294 = undefined;
     s.b___19298 = undefined;
-    s.unnamed62___U2 = undefined;
-    s.unnamed63___U3 = undefined;
+    s.unnamed706___U2 = undefined;
+    s.unnamed707___U3 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
       s.lambdaArgs = null;
@@ -44851,15 +44870,15 @@ switch (step) {
     s.ctrl___19294 = (r0);
     s.b___19298 = (undefined);
     r0 = s.ctrl___19294.fields["buttons"];
-    s.unnamed62___U2 = (r0);
-    s.unnamed63___U3 = (0);
+    s.unnamed706___U2 = (r0);
+    s.unnamed707___U3 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed63___U3;
-    r0 = pxsim_Array__length(s.unnamed62___U2);
+    s.tmp_0 = r0 = s.unnamed707___U3;
+    r0 = pxsim_Array__length(s.unnamed706___U2);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 4; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed62___U2, s.unnamed63___U3);
+    r0 = pxsim_Array__getAt(s.unnamed706___U2, s.unnamed707___U3);
     s.b___19298 = (r0);
     s.tmp_3 = controller_Button__C2189_v0_1_mk(s);
     s.tmp_3.arg0 = s.b___19298;
@@ -44875,11 +44894,11 @@ switch (step) {
     { step = 5; continue; }
   case 2:
   case 3:
-    r0 = (s.unnamed63___U3 + 1);
-    s.unnamed63___U3 = (r0);
+    r0 = (s.unnamed707___U3 + 1);
+    s.unnamed707___U3 = (r0);
     { step = 1; continue; }
   case 4:
-    s.unnamed62___U2 = (undefined);
+    s.unnamed706___U2 = (undefined);
     r0 = false;
   case 5:
     return leave(s, r0)
@@ -44898,8 +44917,8 @@ function controller_AnyButton_isPressed__P4713_mk(s) {
   tmp_3: undefined,
   ctrl___19294: undefined,
   b___19298: undefined,
-  unnamed62___U2: undefined,
-  unnamed63___U3: undefined,
+  unnamed706___U2: undefined,
+  unnamed707___U3: undefined,
   arg0: undefined,
 } }
 
@@ -49375,5 +49394,5 @@ const sprites_BaseSpriteSayRenderer__C2259_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, [])
 
-return _main___P20113
+return _main___P30856
 })

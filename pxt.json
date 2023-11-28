@@ -1,5 +1,6 @@
 {
     "name": "Convert_Ceslius_Fahrenheit",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "device": "*"
